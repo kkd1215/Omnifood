@@ -4,9 +4,9 @@ import { Transition } from "@headlessui/react";
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <header class="bg-custom-orange-light h-24 py-0 px-12">
-            <div class="container mx-auto flex justify-between p-5 items-center">
-                <a class="flex flex-grow title-font font-medium items-center text-gray-900 ">
+        <header className="bg-orange-light h-24 py-0 px-12">
+            <div className="container mx-auto flex justify-between p-5 items-center">
+                <a href='#' className="flex flex-grow title-font font-medium items-center text-grayC-900">
                     <img className='h-6' src="/content/img/omnifood-logo.png" alt="Omnifood logo" />
                 </a>
                 <nav >
@@ -17,37 +17,37 @@ function Header() {
                                     <div className="flex items-baseline space-x-2 lg:space-x-4">
                                         <a
                                             href="#"
-                                            className=" hover:text-custom-orange-dark text-[#333] px-3 py-2 rounded-md text-base font-medium transform transition duration-150 "
+                                            className=" hover:text-orange-dark text-grayC-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150 "
                                         >
-                                            Dashboard
+                                            How it works
                                         </a>
 
                                         <a
                                             href="#"
-                                            className="text-[#333] hover:text-custom-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
+                                            className="text-grayC-dark hover:text-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
                                         >
-                                            Team
+                                            Meals
                                         </a>
 
                                         <a
                                             href="#"
-                                            className="text-[#333] hover:text-custom-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
+                                            className="text-grayC-dark hover:text-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
                                         >
-                                            Projects
+                                            Testimonials
                                         </a>
 
                                         <a
                                             href="#"
-                                            className="text-[#333] hover:text-custom-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
+                                            className="text-grayC-dark hover:text-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
                                         >
-                                            Calendar
+                                            Pricing
                                         </a>
 
                                         <a
                                             href="#"
-                                            className="text-white bg-custom-orange-main hover:bg-custom-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
+                                            className="text-white bg-orange-main hover:bg-orange-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150"
                                         >
-                                            Reports
+                                            Try for free
                                         </a>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ function Header() {
                                 <button
                                     onClick={() => setIsOpen(!isOpen)}
                                     type="button"
-                                    className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                                    className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-grayC-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                                     aria-controls="mobile-menu"
                                     aria-expanded="false"
                                 >
@@ -113,37 +113,37 @@ function Header() {
                                 <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                     <a
                                         href="#"
-                                        className="hover:bg-custom-orange-dark text-white block px-3 py-2 rounded-md text-base font-medium"
+                                        className="hover:bg-orange-dark text-grayC-dark block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Dashboard
+                                        How it works
                                     </a>
 
                                     <a
                                         href="#"
-                                        className="text-[#333] hover:bg-custom-orange-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                                        className="text-grayC-dark hover:bg-orange-dark block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Team
+                                        Meals
                                     </a>
 
                                     <a
                                         href="#"
-                                        className="text-[#333] hover:bg-custom-orange-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                                        className="text-grayC-dark hover:bg-orange-dark block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Projects
+                                        Testimonials
                                     </a>
 
                                     <a
                                         href="#"
-                                        className="text-[#333] hover:bg-custom-orange-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                                        className="text-grayC-dark hover:bg-orange-dark block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Calendar
+                                        Pricing
                                     </a>
 
                                     <a
                                         href="#"
-                                        className="text-[#333] hover:bg-custom-orange-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                                        className="text-grayC-dark hover:bg-orange-dark block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Reports
+                                        Try for free
                                     </a>
                                 </div>
                             </div>

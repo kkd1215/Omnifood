@@ -4,12 +4,21 @@ const { colors: defaultColors } = require('tailwindcss/defaultTheme')
 const colors = {
   ...defaultColors,
   ...{
-    "custom-orange": {
+    "orange": {
       "light": "#fdf2e9",
       "main": "#e67e22",
       "dark": "#cf711f",
-
     },
+    "grayC": {
+      "light": "#555",
+      "dark": "#333",
+    },
+    "food": {
+      "vegeterian": "#51cf66",
+      "vegan": "#94d82d",
+      "paleo": "#ffd43b"
+    },
+
   },
 }
 
@@ -24,6 +33,9 @@ module.exports = {
       fontFamily: {
         sans: ['Rubik', ...fontFamily.sans],
       },
+      backgroundImage: {
+        'cta-img': "linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url('/content/img/eating.jpg')",
+      }
     },
   },
   variants: {
