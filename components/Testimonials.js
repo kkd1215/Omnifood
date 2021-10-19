@@ -14,7 +14,7 @@ function Testimonials() {
                     <TestimonialCard img='hannah' name='Hannah Smith' testimony='I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.' />
                 </div>
             </div>
-            <div className='grid grid-cols-3 gap-4 p-4'>
+            <div className='grid grid-cols-3 xl:grid-cols-2 gap-4 p-4'>
                 <figure className='overflow-hidden'>
                     <img className='w-full hover:scale-110 transition duration-400' src={`/content/img/gallery/gallery-1.jpg`} alt="Photo of beautifully arranged food" />
                 </figure>
