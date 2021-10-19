@@ -13,7 +13,7 @@ function Header() {
                     <div className="mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
-                                <div className="hidden md:block">
+                                <div className="md:hidden block">
                                     <div className="flex items-baseline space-x-2 lg:space-x-4">
                                         <a
                                             href="#"
@@ -52,7 +52,7 @@ function Header() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="-mr-2 flex md:hidden">
+                            <div className="-mr-2 flex hidden">
                                 <button
                                     onClick={() => setIsOpen(!isOpen)}
                                     type="button"
@@ -109,8 +109,8 @@ function Header() {
                         leaveTo="opacity-0 scale-95"
                     >
                         {(ref) => (
-                            <div className="md:hidden" id="mobile-menu">
-                                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                            <div className="md:hidden z-10 bg-black" id="mobile-menu">
+                                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
                                     <a
                                         href="#"
                                         className="hover:bg-orange-dark text-grayC-dark block px-3 py-2 rounded-md text-base font-medium"

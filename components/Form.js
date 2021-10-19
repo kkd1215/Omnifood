@@ -29,7 +29,7 @@ function Form() {
                         <option value='others'>Others</option>
                     </select>
                 </div>
-                <button type="submit" className='inline-block bg-[#45260a] text-orange-light text-xl self-end font-semibold shadow-md rounded-lg py-2 px-8 mt-4 hover:bg-white hover:text-grayC-light transform transition duration-150'>Sign up now</button>
+                <button type="submit" className='inline-block bg-[#45260a] text-orange-light text-xl self-end font-semibold shadow-md rounded-lg py-[0.5em] px-[2em] mt-4 hover:bg-white hover:text-grayC-light transform transition duration-150'>Sign up now</button>
             </form>
         </div>
     )

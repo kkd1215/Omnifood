@@ -24,19 +24,19 @@ body {
 }
 
 h1 {
-  @apply sm:text-5xl text-3xl font-bold;
+  @apply text-5xl md:text-4xl sm:text-3xl font-bold;
 }
 
 h2 {
-  @apply sm:text-4xl text-2xl font-bold;
+  @apply text-4xl md:text-2xl sm:text-xl font-bold;
 }
 
 h3 {
-  @apply sm:text-3xl text-xl font-semibold;
+  @apply text-3xl md:text-xl sm:text-lg font-semibold;
 }
 
 p {
-  @apply sm:text-xl text-lg font-normal;
+  @apply text-xl md:text-lg sm:text-base font-normal;
 }
 
 li {
