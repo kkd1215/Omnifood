@@ -3,7 +3,7 @@ import TestimonialCard from './TestimonialCard'
 
 function Testimonials() {
     return (
-        <section className='section-testimonials gap-y-16 lg:gap-y-11 bg-orange-light'>
+        <section className='section-testimonials md:grid-cols-1 gap-y-16 lg:gap-y-11 md:gap-y-0 bg-orange-light'>
             <div className='p-20 lg:py-20 lg:px-8'>
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>Testimonials</p>
                 <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24'>Once you try it, you can't go back</h2>
@@ -14,7 +14,7 @@ function Testimonials() {
                     <TestimonialCard img='hannah' name='Hannah Smith' testimony='I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.' />
                 </div>
             </div>
-            <div className='grid grid-cols-3 xl:grid-cols-2 gap-4 p-4'>
+            <div className='grid grid-cols-3 xl:grid-cols-2 md:grid-cols-6 gap-4 p-4'>
                 <figure className='overflow-hidden'>
                     <img className='w-full hover:scale-110 transition duration-400' src={`/content/img/gallery/gallery-1.jpg`} alt="Photo of beautifully arranged food" />
                 </figure>

@@ -16,7 +16,7 @@ function Meals() {
                 <MealCard image='meal-1' name='Japanese Gyozas' tags={['vegeterian']} calories='650' nutriscore='74' rating='4.9' comments='537' />
                 <MealCard image='meal-2' name='Avocado Salad' tags={['vegan', 'paleo']} calories='400' nutriscore='92' rating='4.8' comments='441' />
                 <div>
-                    <h3 className='text-grayC-dark font-bold mb-8'>Works with any diet:</h3>
+                    <h3 className='text-grayC-dark font-bold mb-8 lg:text-2xl'>Works with any diet:</h3>
                     <ul className='flex flex-col gap-4'>
                         {list.map(function (listItem, idx) {
                             return (

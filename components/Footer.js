@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <footer className="pt-32 border-t border-[#eee]">
-            <div className='containers grid grid-cols-5 grid-footer gap-x-16 gap-y-24 lg:gap-x-11 lg:gap-y-16'>
+            <div className='containers grid grid-cols-5 grid-footer gap-x-16 gap-y-24 lg:gap-x-11 lg:gap-y-16 md:gap-x-8 md:gap-y-12'>
                 <div className='flex flex-col'>
                     <a href='#' className="flex title-font font-medium items-center text-grayC-900 mb-8 mt-1">
                         <img className='h-6' src="/content/img/omnifood-logo.png" alt="Omnifood logo" />

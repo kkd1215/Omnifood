@@ -3,7 +3,7 @@ import React from 'react'
 function Form() {
     return (
         <div>
-            <form className='grid grid-cols-2 gap-y-8 gap-x-6'>
+            <form className='grid grid-cols-2 md:grid-cols-1 gap-y-8 gap-x-6'>
                 <div>
                     <label className='block font-medium mb-4' for='name'>
                         Full Name
@@ -29,7 +29,7 @@ function Form() {
                         <option value='others'>Others</option>
                     </select>
                 </div>
-                <button type="submit" className='inline-block bg-[#45260a] text-orange-light text-xl self-end font-semibold shadow-md rounded-lg py-[0.5em] px-[2em] mt-4 hover:bg-white hover:text-grayC-light transform transition duration-150'>Sign up now</button>
+                <button type="submit" className='inline-block bg-[#45260a] text-orange-light text-xl self-end font-semibold shadow-md rounded-lg py-[0.5em] px-[2em] mt-4 md:mt-3 hover:bg-white hover:text-grayC-light transform transition duration-150'>Sign up now</button>
             </form>
         </div>
     )

@@ -4,17 +4,17 @@ import { Transition } from "@headlessui/react";
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <header className="bg-orange-light h-24 py-0 px-12">
+        <header className="bg-orange-light h-24 py-0 px-12 md:px-0">
             <div className="container mx-auto flex justify-between p-5 items-center">
                 <a href='#' className="flex flex-grow title-font font-medium items-center text-grayC-900">
                     <img className='h-6' src="/content/img/omnifood-logo.png" alt="Omnifood logo" />
                 </a>
                 <nav >
-                    <div className="mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="mx-auto sm:px-2 md:px-4 lg:px-6 px-8">
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
-                                <div className="md:hidden block">
-                                    <div className="flex items-baseline space-x-8 lg:space-x-6">
+                                <div className="sm:hidden block">
+                                    <div className="flex items-baseline space-x-8 lg:space-x-6 md:space-x-4">
                                         <a
                                             href="#"
                                             className=" hover:text-orange-dark text-grayC-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150 "
@@ -52,7 +52,7 @@ function Header() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="-mr-2 flex hidden">
+                            <div className="-mr-2 sm:flex hidden">
                                 <button
                                     onClick={() => setIsOpen(!isOpen)}
                                     type="button"

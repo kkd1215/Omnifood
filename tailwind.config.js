@@ -44,8 +44,8 @@ module.exports = {
       'lg': { 'max': '75em' }, // Landscape tablets
       // => @media (max-width: 1200px) { ... }
 
-      'md': { 'max': '767px' },
-      // => @media (max-width: 767px) { ... }
+      'md': { 'max': '62em' }, // Tablets
+      // => @media (max-width: 944px) { ... }
 
       'sm': { 'max': '639px' },
       // => @media (max-width: 639px) { ... }
