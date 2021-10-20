@@ -5,9 +5,9 @@ function HowItWorks() {
         <section className='py-16'>
             <div className='containers'>
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>How it works</p>
-                <h2 className='text-5xl leading-tight text-grayC-dark mb-24'>Your daily dose of health in 3 simple steps</h2>
+                <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24'>Your daily dose of health in 3 simple steps</h2>
             </div>
-            <div className='containers grid grid-cols-2 gap-y-24 gap-x-16 items-center'>
+            <div className='containers grid grid-cols-2 gap-y-24 gap-x-16 lg:gap-x-11 lg:gap-y-16 items-center'>
                 <div>
                     <p className='text-8xl text-[#bbb] font-semibold mb-3'>01</p>
                     <h3 className='text-grayC-dark font-bold mb-8'>Tell us what you like (and what not)</h3>

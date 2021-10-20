@@ -129,3 +129,9 @@ strong {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
+
+/* -------------------------------------------- Media Queries --------------------------------------------- */
+
+html {
+  @apply lg:text-[93.75%];
+}

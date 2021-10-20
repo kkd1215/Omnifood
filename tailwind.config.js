@@ -38,11 +38,11 @@ module.exports = {
       }
     },
     screens: {
-      'xl': { 'max': '1279px' },
-      // => @media (max-width: 1279px) { ... }
+      'xl': { 'max': '84em' }, // Smaller Desktops
+      // => @media (max-width: 1344px) { ... }
 
-      'lg': { 'max': '1023px' },
-      // => @media (max-width: 1023px) { ... }
+      'lg': { 'max': '75em' }, // Landscape tablets
+      // => @media (max-width: 1200px) { ... }
 
       'md': { 'max': '767px' },
       // => @media (max-width: 767px) { ... }

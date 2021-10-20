@@ -4,7 +4,7 @@ function MealCard({ image, name, tags, calories, nutriscore, rating, comments })
     return (
         <div className='shadow-xl rounded-xl overflow-hidden hover:-translate-y-5 hover:shadow-lg transform transition duration-150'>
             <img className='w-full' src={`/content/img/meals/${image}.jpg`} alt={name} />
-            <div className='p-12 pt-8'>
+            <div className='p-12 pt-8 lg:p-9 lg:pt-6'>
                 <div className='flex mb-3 gap-1'>
                     {tags.map(function (tag, idx) {
                         return (

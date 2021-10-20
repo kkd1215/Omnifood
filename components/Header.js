@@ -14,7 +14,7 @@ function Header() {
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
                                 <div className="md:hidden block">
-                                    <div className="flex items-baseline space-x-2 lg:space-x-4">
+                                    <div className="flex items-baseline space-x-8 lg:space-x-6">
                                         <a
                                             href="#"
                                             className=" hover:text-orange-dark text-grayC-dark px-3 py-2 rounded-md text-base font-medium transform transition duration-150 "

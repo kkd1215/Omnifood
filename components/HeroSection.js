@@ -5,7 +5,7 @@ function HeroSection() {
         <section className=" bg-orange-light">
             <div className="containers xl:max-w-7xl max-w-[1300px] mx-auto flex pt-12 pb-24 flex-row md:flex-col items-center">
                 <div className="flex-grow w-1/2 flex flex-col items-start text-left md:mb-16 mb-0 md:items-center md:text-center">
-                    <h1 className="text-grayC-dark mb-10 xl:text-[2.6rem]">A healthy meal delivered to your door, every single day
+                    <h1 className="text-grayC-dark mb-10 xl:text-[2.75rem]">A healthy meal delivered to your door, every single day
                     </h1>
                     <p className="mb-10 leading-relaxed text-xl font-normal">The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.</p>
                     <div className="flex justify-center">
@@ -22,7 +22,7 @@ function HeroSection() {
                             <img className='rounded-full w-12 h-12 border-4 border-orange-light -mr-4' src="/content/img/customers/customer-5.jpg" alt="Customer photo" />
                             <img className='rounded-full w-12 h-12 border-4 border-orange-light' src="/content/img/customers/customer-6.jpg" alt="Customer photo" />
                         </div>
-                        <p className='xl:ml-4'><span className='text-orange-dark'>250,000+</span> delivered meals last year!</p>
+                        <p className='xl:ml-4 lg:ml-6'><span className='text-orange-dark'>250,000+</span> delivered meals last year!</p>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full w-1/2 md:w-5/6 pl-8 lg:pl-6 md:pl-4">
