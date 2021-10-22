@@ -2,7 +2,7 @@ import React from 'react'
 
 function HowItWorks() {
     return (
-        <section className='py-16'>
+        <section className='py-16' id='how'>
             <div className='containers'>
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>How it works</p>
                 <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24 sm:mb-12'>Your daily dose of health in 3 simple steps</h2>
@@ -15,7 +15,7 @@ function HowItWorks() {
                         Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
                     </p>
                 </div>
-                <div className='flex justify-center items-center row-start-1 relative circles xs:translate-y-6'>
+                <div className='flex justify-center items-center xs:row-start-1 relative circles xs:translate-y-6'>
                     <img className='w-[35%]' src="/content/img/app/app-screen-1.png" alt="Iphone app preferences selection screen" />
                 </div>
                 <div className='flex justify-center items-center relative circles xs:translate-y-6'>
@@ -36,7 +36,7 @@ function HowItWorks() {
                         Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
                     </p>
                 </div>
-                <div className='flex justify-center items-center row-start-5 relative circles xs:translate-y-6'>
+                <div className='flex justify-center items-center xs:row-start-5 relative circles xs:translate-y-6'>
                     <img className='w-[35%]' src="/content/img/app/app-screen-3.png" alt="Iphone app order confirmation screen" />
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pricing() {
     return (
-        <section className='my-24'>
+        <section className='my-24' id='pricing'>
             <div className='containers'>
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>Pricing</p>
                 <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24 sm:mb-12'>Eating well without breaking the bank</h2>

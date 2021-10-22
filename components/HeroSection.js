@@ -9,8 +9,8 @@ function HeroSection() {
                     </h1>
                     <p className="mb-10 leading-relaxed text-xl font-normal">The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.</p>
                     <div className="flex justify-center">
-                        <button className="inline-flex text-white bg-orange-main border-0 py-2 px-6 focus:outline-none hover:bg-orange-dark rounded-lg text-xl font-semibold transform transition duration-150">Start eating well</button>
-                        <button className="ml-4 inline-flex bg-white border-2 border-white py-2 px-6 focus:outline-none hover:bg-orange-light rounded-lg text-xl font-semibold transform transition duration-150">Learn more &darr;</button>
+                        <a href='#cta' className="inline-flex text-white bg-orange-main border-0 py-2 px-6 focus:outline-none hover:bg-orange-dark rounded-lg text-xl font-semibold transform transition duration-150">Start eating well</a>
+                        <a href='#how' className="ml-4 inline-flex bg-white border-2 border-white py-2 px-6 focus:outline-none hover:bg-orange-light rounded-lg text-xl font-semibold transform transition duration-150">Learn more &darr;</a>
                     </div>
 
                     <div className='flex mt-10 items-center gap-4'>

@@ -3,7 +3,7 @@ import TestimonialCard from './TestimonialCard'
 
 function Testimonials() {
     return (
-        <section className='section-testimonials md:grid-cols-1 gap-y-16 lg:gap-y-11 md:gap-y-0 bg-orange-light'>
+        <section className='section-testimonials md:grid-cols-1 gap-y-16 lg:gap-y-11 md:gap-y-0 bg-orange-light' id='testimonials'>
             <div className='p-20 lg:py-20 lg:px-8'>
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>Testimonials</p>
                 <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24 sm:mb-12'>Once you try it, you can't go back</h2>

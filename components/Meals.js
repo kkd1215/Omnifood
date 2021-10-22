@@ -4,7 +4,7 @@ import MealCard from './MealCard'
 function Meals() {
     const list = ['Vegetarian', 'Vegan', 'Pescatarian', 'Gluten-free', 'Lactose-free', 'Keto', 'Paleo', 'Low FODMAP', 'Kid-friendly']
     return (
-        <section>
+        <section id='meals'>
             <div className='bg-food-vegeterian'></div>
             <div className='bg-food-vegan'></div>
             <div className='bg-food-paleo'></div>

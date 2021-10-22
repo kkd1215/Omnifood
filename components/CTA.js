@@ -3,7 +3,7 @@ import Form from './Form'
 
 function CTA() {
     return (
-        <section className='pt-12 pb-16'>
+        <section className='pt-12 pb-16' id='cta'>
             <div className='containers '>
                 <div className='section-cta md:section-cta-md xs:grid-cols-1 shadow-2xl rounded-xl bg-gradient-to-br from-[#eb984e] to-orange-main overflow-hidden'>
                     <div className='text-[#45260a] p-12 xs:p-6'>
