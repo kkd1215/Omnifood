@@ -4,7 +4,7 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
 
-    const stickyClass = 'fixed top-0 bottom-0 w-full h-24 bg-orange-light opacity-[97%] z-30 shadow-md transition ease-in-out duration-150'
+    const stickyClass = 'fixed top-0 bottom-0 w-full h-24 bg-orange-light opacity-[98%] z-30 shadow-md transition ease-in-out duration-150'
 
     useEffect(() => {
         // Sticky navigation
@@ -43,7 +43,7 @@ function Header() {
                     <div className="mx-auto sm:px-2 md:px-4 lg:px-6 px-8">
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
-                                <div className={`block md:absolute md:top-0 md:left-0 md:bg-orange-light md:w-full md:h-screen md:z-10  md:transition-all md:duration-500 ${isOpen ? 'md:opacity-[97%] md:pointer-events-auto md:visible md:translate-x-0' : 'md:opacity-0 md:pointer-events-none md:invisible md:translate-x-[100%]'}`}>
+                                <div className={`block md:absolute md:top-0 md:left-0 md:bg-orange-light md:w-full md:h-screen md:z-10  md:transition-all md:duration-500 ${isOpen ? 'md:opacity-[98%] md:pointer-events-auto md:visible md:translate-x-0' : 'md:opacity-0 md:pointer-events-none md:invisible md:translate-x-[100%]'}`}>
                                     <div className='flex items-baseline space-x-8 lg:space-x-6 md:space-x-0 md:flex md:flex-col md:items-center md:justify-center md:gap-12 md:mt-[25vh]'>
                                         <a onClick={() => {
                                             setIsOpen(false);
