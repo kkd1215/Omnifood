@@ -3,7 +3,7 @@ import React from 'react'
 function HeroSection() {
     return (
         <section className=" bg-orange-light">
-            <div className="containers xl:max-w-7xl max-w-[1300px] mx-auto flex pt-12 pb-24 flex-row md:flex-col items-center">
+            <div className="containers xl:max-w-7xl max-w-[1300px] mx-auto flex pt-12 pb-24 xs:pt-6 xs:pb-16 flex-row md:flex-col items-center xs:px-1">
                 <div className="flex-grow flex flex-col w-1/2 md:w-5/6 items-start text-left md:mb-16 mb-0 md:items-center md:text-center">
                     <h1 className="text-grayC-dark mb-10 xl:text-[2.75rem]">A healthy meal delivered to your door, every single day
                     </h1>
@@ -22,7 +22,7 @@ function HeroSection() {
                             <img className='rounded-full w-12 h-12 border-4 border-orange-light -mr-4' src="/content/img/customers/customer-5.jpg" alt="Customer photo" />
                             <img className='rounded-full w-12 h-12 border-4 border-orange-light m-0' src="/content/img/customers/customer-6.jpg" alt="Customer photo" />
                         </div>
-                        <p className='lg:ml-10 md:ml-0 md:text-base font-semibold'><span className='text-orange-dark'>250,000+</span> delivered meals last year!</p>
+                        <p className='lg:ml-10 md:ml-0 md:text-base xs:text-sm font-semibold'><span className='text-orange-dark'>250,000+</span> delivered meals last year!</p>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full w-1/2 md:w-5/6 pl-8 lg:pl-6 md:pl-4">

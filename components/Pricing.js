@@ -7,8 +7,8 @@ function Pricing() {
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>Pricing</p>
                 <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24 sm:mb-12'>Eating well without breaking the bank</h2>
             </div>
-            <div className='containers grid grid-cols-2 gap-x-16 lg:gap-x-11'>
-                <div className='p-12 rounded-xl w-[75%] sm:w-full border-2 border-orange-light justify-self-end'>
+            <div className='containers grid grid-cols-2 xs:grid-cols-1 gap-16 lg:gap-11'>
+                <div className='p-12 rounded-xl w-[75%] sm:w-full xs:w-[75%] border-2 border-orange-light justify-self-end xs:mx-auto'>
                     <header className='text-center mb-12'>
                         <p className='text-orange-dark font-semibold text-xl tracking-widest mb-8 uppercase'>Starter</p>
                         <p className='text-grayC-dark text-6xl font-semibold mb-4'><span className='text-3xl font-medium mr-2'>$</span>399</p>
@@ -24,7 +24,7 @@ function Pricing() {
                         <button className="inline-flex text-white bg-orange-main border-0 py-2 px-6 focus:outline-none hover:bg-orange-dark rounded-lg text-xl font-semibold transform transition duration-150">Start eating well</button>
                     </div>
                 </div>
-                <div className='p-12 rounded-xl w-[75%] sm:w-full bg-orange-light relative overflow-hidden bestvalue'>
+                <div className='p-12 rounded-xl w-[75%] sm:w-full xs:w-[75%] bg-orange-light relative overflow-hidden bestvalue xs:mx-auto'>
                     <header className='text-center mb-12'>
                         <p className='text-orange-dark font-semibold text-xl tracking-widest mb-8 uppercase'>Complete</p>
                         <p className='text-grayC-dark text-6xl font-semibold mb-4'><span className='text-3xl font-medium mr-2'>$</span>649</p>

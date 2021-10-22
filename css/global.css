@@ -20,7 +20,7 @@
 }
 
 html {
-  @apply lg:text-[93.75%] md:text-[81.25%];
+  @apply lg:text-[93.75%] md:text-[81.25%] xs:text-[68.75%];
 }
 
 body {
@@ -139,7 +139,3 @@ strong {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
-
-/* .nav-col {
-  grid
-} */

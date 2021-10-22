@@ -47,8 +47,11 @@ module.exports = {
       'md': { 'max': '62em' }, // Tablets
       // => @media (max-width: 944px) { ... }
 
-      'sm': { 'max': '45em' },
+      'sm': { 'max': '45em' }, // Smaller tablets
       // => @media (max-width: 720px) { ... }
+
+      'xs': { 'max': '35em' }, // Phones
+      // => @media (max-width: 560px) { ... }
     }
   },
   variants: {

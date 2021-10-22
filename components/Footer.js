@@ -31,7 +31,7 @@ function Footer() {
                         </p>
                     </address>
                 </div>
-                <nav className="list-none nav-col sm:row-start-1 sm:col-span-2">
+                <nav className="list-none sm:row-start-1 sm:col-span-2">
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Account</p>
                     <ul className='flex flex-col gap-4 sm:gap-4'>
                         <li>
@@ -48,7 +48,7 @@ function Footer() {
                         </li>
                     </ul>
                 </nav>
-                <nav className="list-none nav-col sm:row-start-1 sm:col-span-2">
+                <nav className="list-none sm:row-start-1 sm:col-span-2">
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Company</p>
                     <ul className='flex flex-col gap-4 sm:gap-4'>
                         <li>
@@ -65,7 +65,7 @@ function Footer() {
                         </li>
                     </ul>
                 </nav>
-                <nav className="list-none nav-col sm:row-start-1 sm:col-span-2">
+                <nav className="list-none sm:row-start-1 sm:col-span-2">
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Resources</p>
                     <ul className='flex flex-col gap-4 sm:gap-4'>
                         <li>
