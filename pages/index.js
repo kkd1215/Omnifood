@@ -21,7 +21,7 @@ export default function Home() {
         <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
         <script defer src='https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js'></script>
-        <script defer src="js/optimization.js"></script>
+        <script defer src="/js/optimization.js"></script>
       </Head>
       <Header />
       <main>
