@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
     return (
-        <section className=" bg-orange-light">
+        <section className=" bg-orange-light section-hero">
             <div className="containers xl:max-w-7xl max-w-[1300px] mx-auto flex pt-12 pb-24 xs:pt-6 xs:pb-16 flex-row md:flex-col items-center xs:px-1">
                 <div className="flex-grow flex flex-col w-1/2 md:w-5/6 items-start text-left md:mb-16 mb-0 md:items-center md:text-center">
                     <h1 className="text-grayC-dark mb-10 xl:text-[2.75rem]">A healthy meal delivered to your door, every single day

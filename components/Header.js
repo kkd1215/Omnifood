@@ -1,11 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isSticky, setIsSticky] = useState(false);
+
+    const stickyClass = 'fixed top-0 bottom-0 w-full h-24 bg-orange-light opacity-[97%] z-30 shadow-md transition ease-in-out duration-150'
+
+    useEffect(() => {
+        // Sticky navigation
+
+        const sectionHeroEl = document.querySelector(".section-hero");
+
+        const obs = new IntersectionObserver(
+            function (entries) {
+                const ent = entries[0];
+
+                if (ent.isIntersecting === false) {
+                    setIsSticky(true);
+                }
+
+                if (ent.isIntersecting === true) {
+                    setIsSticky(false);
+                }
+            },
+            {
+                // In the viewport
+                root: null,
+                threshold: 0,
+                rootMargin: "-80px",
+            }
+        );
+        obs.observe(sectionHeroEl);
+    }, []);
 
     return (
-        <header className="bg-orange-light relative h-24 py-0 px-12 md:px-0">
-            <div className="container mx-auto flex justify-between p-5 items-center">
+        <header className='bg-orange-light relative h-24 py-0'>
+            <div className={`container mx-auto flex justify-between p-5 px-12 items-center ${isSticky ? stickyClass : ''}`}>
                 <a href='#' className="flex  title-font font-medium items-center text-grayC-900">
                     <img className='h-6' src="/content/img/omnifood-logo.png" alt="Omnifood logo" />
                 </a>
@@ -14,7 +44,7 @@ function Header() {
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
                                 <div className={`block md:absolute md:top-0 md:left-0 md:bg-orange-light md:w-full md:h-screen md:z-10  md:transition-all md:duration-500 ${isOpen ? 'md:opacity-[97%] md:pointer-events-auto md:visible md:translate-x-0' : 'md:opacity-0 md:pointer-events-none md:invisible md:translate-x-[100%]'}`}>
-                                    <div className='flex items-baseline space-x-8 lg:space-x-6 md:space-x-0 md:flex md:flex-col md:items-center md:justify-center md:gap-12 md:mt-56'>
+                                    <div className='flex items-baseline space-x-8 lg:space-x-6 md:space-x-0 md:flex md:flex-col md:items-center md:justify-center md:gap-12 md:mt-[25vh]'>
                                         <a onClick={() => {
                                             setIsOpen(false);
                                         }}
