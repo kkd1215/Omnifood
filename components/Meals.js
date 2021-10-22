@@ -10,12 +10,12 @@ function Meals() {
             <div className='bg-food-paleo'></div>
             <div className='containers text-center'>
                 <p className='text-orange-dark mb-4 uppercase font-medium tracking-wide'>Meals</p>
-                <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24'>Omnifood AI chooses from 5,000+ recipes</h2>
+                <h2 className='text-5xl lg:text-4xl leading-tight text-grayC-dark mb-24 sm:mb-12'>Omnifood AI chooses from 5,000+ recipes</h2>
             </div>
-            <div className='containers grid grid-cols-3 gap-y-24 gap-x-16 lg:gap-x-11 lg:gap-y-16 mb-12'>
+            <div className='containers grid grid-cols-3 sm:grid-cols-2 gap-y-24 gap-x-16 lg:gap-x-11 lg:gap-y-16 mb-12'>
                 <MealCard image='meal-1' name='Japanese Gyozas' tags={['vegeterian']} calories='650' nutriscore='74' rating='4.9' comments='537' />
                 <MealCard image='meal-2' name='Avocado Salad' tags={['vegan', 'paleo']} calories='400' nutriscore='92' rating='4.8' comments='441' />
-                <div>
+                <div className='sm:col-span-full sm:justify-self-center'>
                     <h3 className='text-grayC-dark font-bold mb-8 lg:text-2xl'>Works with any diet:</h3>
                     <ul className='flex flex-col gap-4'>
                         {list.map(function (listItem, idx) {

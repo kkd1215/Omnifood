@@ -2,13 +2,13 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="pt-32 border-t border-[#eee]">
-            <div className='containers grid grid-cols-5 grid-footer gap-x-16 gap-y-24 lg:gap-x-11 lg:gap-y-16 md:gap-x-8 md:gap-y-12'>
-                <div className='flex flex-col'>
+        <footer className="pt-32 sm:pt-16 border-t border-[#eee]">
+            <div className='containers grid grid-cols-5 grid-footer sm:grid-cols-6 gap-x-16 gap-y-24 lg:gap-x-11 lg:gap-y-16 md:gap-x-8 md:gap-y-12'>
+                <div className='flex flex-col sm:col-span-3'>
                     <a href='#' className="flex title-font font-medium items-center text-grayC-900 mb-8 mt-1">
                         <img className='h-6' src="/content/img/omnifood-logo.png" alt="Omnifood logo" />
                     </a>
-                    <ul className="list-none flex gap-4">
+                    <ul className="list-none flex gap-4 sm:gap-4">
                         <li>
                             <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150"><ion-icon name="logo-instagram" style={{ height: "1.5rem", width: "1.5rem" }}></ion-icon></a>
                         </li>
@@ -21,7 +21,7 @@ function Footer() {
                     </ul>
                     <p className="text-sm text-[#767676] leading-6 mt-auto">Copyright &copy; 2021 by Omnifood, Inc. All rights reserved.</p>
                 </div>
-                <div>
+                <div className='sm:col-span-3'>
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Contact us</p>
                     <address className='pt-1 not-italic'>
                         <p className='text-base text-[#767676] mb-6'>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
@@ -31,9 +31,9 @@ function Footer() {
                         </p>
                     </address>
                 </div>
-                <nav className="list-none">
+                <nav className="list-none nav-col sm:row-start-1 sm:col-span-2">
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Account</p>
-                    <ul className='flex flex-col gap-4'>
+                    <ul className='flex flex-col gap-4 sm:gap-4'>
                         <li>
                             <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">Create account</a>
                         </li>
@@ -48,9 +48,9 @@ function Footer() {
                         </li>
                     </ul>
                 </nav>
-                <nav className="list-none">
+                <nav className="list-none nav-col sm:row-start-1 sm:col-span-2">
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Company</p>
-                    <ul className='flex flex-col gap-4'>
+                    <ul className='flex flex-col gap-4 sm:gap-4'>
                         <li>
                             <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">About Omnifood</a>
                         </li>
@@ -58,16 +58,16 @@ function Footer() {
                             <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">For Business</a>
                         </li>
                         <li>
-                            <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">Cooking partners</a>
+                            <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">Cooking partner</a>
                         </li>
                         <li>
                             <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">Careers</a>
                         </li>
                     </ul>
                 </nav>
-                <nav className="list-none">
+                <nav className="list-none nav-col sm:row-start-1 sm:col-span-2">
                     <p className='text-lg font-medium mb-8 uppercase tracking-widest'>Resources</p>
-                    <ul className='flex flex-col gap-4'>
+                    <ul className='flex flex-col gap-4 sm:gap-4'>
                         <li>
                             <a href='#' className="text-base text-[#767676] hover:text-grayC-dark transition duration-150">Recipe directory</a>
                         </li>

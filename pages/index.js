@@ -12,7 +12,7 @@ import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Head>
         <title>Omnifood</title>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />

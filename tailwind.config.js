@@ -47,8 +47,8 @@ module.exports = {
       'md': { 'max': '62em' }, // Tablets
       // => @media (max-width: 944px) { ... }
 
-      'sm': { 'max': '639px' },
-      // => @media (max-width: 639px) { ... }
+      'sm': { 'max': '45em' },
+      // => @media (max-width: 720px) { ... }
     }
   },
   variants: {
