@@ -26,12 +26,12 @@ function HeroSection() {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full w-1/2 md:w-5/6 pl-8 lg:pl-6 md:pl-4">
-                    <picture>
+                    {/* <picture>
                         <source srcset="/content/img/hero.webp" type="image/webp" />
-                        <source srcset="/content/img/hero-min.png" type="image/png" />
+                        <source srcset="/content/img/hero-min.png" type="image/png" /> */}
 
-                        <img className="object-cover object-center rounded" alt="woman enjoying food, meals in a storage container, and food bowls on a table" src="/content/img/hero.webp" />
-                    </picture>
+                    <img className="object-cover object-center rounded" alt="woman enjoying food, meals in a storage container, and food bowls on a table" src="/content/img/hero.webp" />
+                    {/* </picture> */}
                 </div>
             </div>
         </section>
