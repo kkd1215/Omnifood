@@ -30,7 +30,7 @@ function HeroSection() {
                         <source srcset="/content/img/hero.webp" type="image/webp" />
                         <source srcset="/content/img/hero-min.png" type="image/png" /> */}
 
-                    <img className="object-cover object-center rounded" alt="woman enjoying food, meals in a storage container, and food bowls on a table" src="/content/img/hero-min.png" />
+                    <img className="object-cover object-center rounded" alt="woman enjoying food, meals in a storage container, and food bowls on a table" src="/content/img/hero.png" />
                     {/* </picture> */}
                 </div>
             </div>
