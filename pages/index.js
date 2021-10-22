@@ -12,6 +12,34 @@ import Testimonials from '../components/Testimonials'
 
 export default function Home() {
 
+  // Smooth scrolling animation
+
+  const allLinks = document.querySelectorAll("a:link");
+
+  allLinks.forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const href = link.getAttribute("href");
+
+      // Scroll back to top
+      if (href === "#")
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+
+      // Scroll to other links
+      if (href !== "#" && href.startsWith("#")) {
+        const sectionEl = document.querySelector(href);
+        sectionEl.scrollIntoView({ behavior: "smooth" });
+      }
+
+      // Close mobile naviagtion
+      if (link.classList.contains("main-nav-link"))
+        headerEl.classList.toggle("nav-open");
+    });
+  });
+
   return (
     <div className="overflow-x-hidden">
       <Head>
@@ -21,7 +49,6 @@ export default function Home() {
         <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
         <script defer src='https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js'></script>
-        <script defer src="/js/optimization.js"></script>
       </Head>
       <Header />
       <main>
