@@ -45,9 +45,15 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden">
       <Head>
-        <title>Omnifood</title>
+        <title>Omnifood &mdash; Never cook again!</title>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta
+          name="description"
+          content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+        />
         <link rel="icon" href="content/img/favicon.png" />
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+        <link rel="manifest" href="manifest.webmanifest" />
         <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
         <script defer src='https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js'></script>

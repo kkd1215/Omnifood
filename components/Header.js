@@ -15,11 +15,11 @@ function Header() {
             function (entries) {
                 const ent = entries[0];
 
-                if (ent.isIntersecting === false) {
+                if (!ent.isIntersecting) {
                     setIsSticky(true);
                 }
 
-                if (ent.isIntersecting === true) {
+                if (ent.isIntersecting) {
                     setIsSticky(false);
                 }
             },
